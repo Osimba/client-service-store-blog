@@ -52,21 +52,23 @@ footer {
         margin: 0;
         max-height: 152px;
     }
+	
     .wrapper .banner div h1 {
         color: #f8558c;
         margin: 0;
+		text-align: center;
     }
     .wrapper .banner div {
         font-size: 44px;
-        display: inline-block;
-        position: relative;
+       /* position: relative;
         top: 50%;
-        transform: translateY(-50%);
-        margin-left: 10px;
+        transform: translateY(-50%);*/
+        margin-left: auto;
+		margin-right: auto;
     }
     .wrapper .banner img {
         width: 150px;
-        display: inline-block;
+        display: none;
     }
 
         .nav {
@@ -594,16 +596,9 @@ footer {
 }
 
 @media only screen and (max-width: 760px) {
-    .wrapper .banner img {
-        width: 200px;
-        display: block;
-        margin: 0 auto;
-    }
+    
     .wrapper .banner {
         max-height: initial;
-    }
-    .wrapper .banner div {
-        display: none;
     }
 
     /* Previous Creation Styles */
@@ -634,15 +629,19 @@ footer {
 
 @media only screen and (max-width: 580px) {
     /* Global Styles */
-    .wrapper .banner {
-        background-image: url("../images/kcc-logo-small.jpg");
+
+    .wrapper .banner div {
+		display: none;
+       /* background-image: url("../images/kcc-logo-small.jpg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 150px;
+        height: 150px;*/
     }
     .wrapper .banner img {
-        display: none;
+        width: 200px;
+        display: block;
+        margin: 0 auto;
     }
     .nav li {
         float: none;
@@ -732,11 +731,11 @@ footer {
 }
 
 @media only screen and (max-width: 320px) {
-    /* Global Styles */
+    /* Global Styles 
     .wrapper .banner {
         background-image: url("../images/kcc-logo-smallest.jpg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 130px;
+        height: 130px;*/
     }

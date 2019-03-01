@@ -16,12 +16,13 @@
 <body>
     <div class="wrapper">
         <div class="banner">
-            <a href="index.html"><img src="images/kcc-logo.jpg" alt="kcc-logo"></a>
-            <div><h1>Kimberly's Custom Vinyl Creations</h1></div>
+            <a href="index.html"><img src="images/cvc-logo.jpg" alt="cvc-logo"></a>
+            <div><h1>Custom Vinyl Creations</h1></div>
         </div>
         <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="store.php">Store</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li class="important-tab"><a href="contact.html">Place My Order</a></li>
+			<li class="menu-toggle"><a href="#">Menu</a></li>
+            <li class="list"><a href="index.html">Home</a></li>
+            <li class="list"><a href="store.php">Store</a></li>
+            <li class="list"><a href="blog.html">Blog</a></li>
+            <li class="important-tab list"><a href="contact.html">Place My Order</a></li>
         </ul>

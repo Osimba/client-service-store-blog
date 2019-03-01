@@ -5,5 +5,6 @@
                 <br><?php echo date('Y') ?> &copy; www.yourdomain.com
             </footer>
         </div> <!-- End of Wrapper -->
+		<?php echo '<script rel="javascript" src="app.js"></script>' ?>
     </body>
 </html>
