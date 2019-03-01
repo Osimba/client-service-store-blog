@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Vinyl | Place Order</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <a href="index.html"><img src="images/kcc-logo.jpg" alt="kcc-logo"></a>
+            <div>
+                <h1>Kimberly's Custom Vinyl Creations</h1>
+            </div>
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.php">Store</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="important-tab"><a href="contact.html">Place My Order</a></li>
+        </ul>
+
+        <div class="place-order-header"></div>
+
+        <div class="custom-form">
+            <h2>Place My Order</h2>
+        
+            <form action="">
+                Name:
+                <br>
+                <input class="form-field" type="text" name="name"><br>
+                <br> Email:
+                <br>
+                <input class="form-field" type="email" name="email"><br>
+                <br> Type:
+                <br><!--
+                <input type="radio" name="custom-type" value="apparel" checked> Apparel
+                <br>
+                <input type="radio" name="custom-type" value="signs"> Signs
+                <br>
+                <input type="radio" name="custom-type" value="banners"> Banners
+                <br>
+                <input type="radio" name="custom-type" value="other"> Other -->
+                <select name="custom-type">
+                    <option value="apparel">Apparel</option>
+                    <option value="signs">Signs</option>
+                    <option value="banners">Banners</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <br> Description:
+                <br>
+                <textarea name="description"></textarea><br>
+                <br> File:
+                <br>
+                <input type="file" name="previewFile" id="">
+                <br>
+                <br>
+                <input type="submit" value="Order My Creation">
+            </form>
+            <p>Questions? Comments? Concerns?</p>
+            <p>Feel free to contact me directly by email: youremail@domain.com</p>
+        </div>
+        
+        <footer style="text-align:center">
+            <a href="store.php">Store</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Order Form</a>
+            <br>2018 &copy; www.yourdomain.com
+        </footer>
+    </div>
+</body>
+
+</html>

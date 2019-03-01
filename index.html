@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Vinyl | Home</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/kcc-favicon.jpg">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <a href="index.html"><img src="images/kcc-logo.jpg" alt="kcc-logo"></a>
+            <div><h1>Kimberly's Custom Vinyl Creations</h1></div>
+        </div>
+        <ul class="nav">
+            <li class="menu-toggle"><a href="#" onclick="clickFunc()">Menu</a></li>
+            <li class="list"><a href="index.html">Home</a></li>
+            <li class="list"><a href="store.php">Store</a></li>
+            <li class="list"><a href="blog.html">Blog</a></li>
+            <li class="important-tab list"><a href="contact.html">Place My Order</a></li>
+        </ul>
+        
+
+        <div class="home">
+            <div>
+                <h1>Custom Vinyl Designs</h1>
+                <p>Express yourself with your own stylish design</p>
+                <p>We'll make your custom:</p>
+                <p>Apparel | Signs | Banners | Other</p>
+                <br><br><br>
+                <a href="contact.html"><button>Get My Custom Design</button></a>            
+            </div>
+        </div>
+
+        <div class="previous-work">
+            <h2>Kim's Previous Creations</h2>
+            <img src="images/image-holder.jpg" alt="">
+            <img src="images/image-holder.jpg" alt="">
+            <img src="images/image-holder.jpg" alt="">
+            <img src="images/image-holder.jpg" alt="">
+            <img src="images/image-holder.jpg" alt="">
+            <img src="images/image-holder.jpg" alt="">
+        </div>
+
+        <div class="testimonials">
+            <h2>Kim's Fans</h2>
+            <div>
+            <img src="images/client1.png" alt="client-image">
+            <p><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde repudiandae consectetur labore recusandae temporibus consequuntur eos repellat quas veniam fuga deserunt iusto alias, possimus neque ducimus placeat quaerat commodi?<span>"</span></p>
+            </div><div>
+            <img src="images/client2.png" alt="client-image">
+            <p><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde repudiandae consectetur labore recusandae temporibus consequuntur eos repellat quas veniam fuga deserunt iusto alias, possimus neque ducimus placeat quaerat commodi?<span>"</span></p>
+            </div><div>
+            <img src="images/client1.png" alt="client-image">
+            <p><span>"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde repudiandae consectetur labore recusandae temporibus consequuntur eos repellat quas veniam fuga deserunt iusto alias, possimus neque ducimus placeat quaerat commodi?<span>"</span></p>
+            </div>
+        </div>
+
+        <div class="final-call">
+            <a href="contact.html"><button>Get My Custom Creation</button></a>
+        </div>
+
+
+        <footer style="text-align:center">
+            <a href="store.php">Store</a>  <a href="blog.html">Blog</a>  <a href="contact.html">Order Form</a>
+            <br>2018 &copy; www.yourdomain.com
+        </footer>
+            
+    </div> <!-- End of Wrapper-->
+    <script>
+        function clickFunc () {
+            var x = document.querySelectorAll('.list');
+            x.forEach(element => {
+                if (element.style.display === 'block') {
+                    element.style.display = 'none';
+                } else {
+                    element.style.display = 'block';
+                }
+            });
+            
+        }
+    </script>
+</body>
+</html>
